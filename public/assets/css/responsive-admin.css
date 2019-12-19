@@ -1,0 +1,108 @@
+/******************************
+
+INDEX:
+	001 - min-device: 992px and max-device: 1169px
+	002 - min-device: 768px and max-device: 991px
+	003 - max-device: 767px
+	004 - min-device: 480px and max-device: 767px
+
+******************************/
+
+@media (max-width: 1300px) {
+	.board .number {
+		width: 70%;
+	}
+}
+
+/**********************************************
+001 - min-device: 992px and max-device: 1169px
+***********************************************/
+/*/ Normal desktop :992px. /*/
+@media (min-width: 992px) and (max-width: 1169px) {
+.board .number {
+		width: 100%;
+		text-align: center;
+	}
+.board .icon {
+	width: 100%;
+	text-align: center;
+}
+
+
+}
+
+/**********************************************
+002 - min-device: 768px and max-device: 991px
+***********************************************/
+/*/ Tablet desktop :768px. /*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.board .number {
+	text-align: left;
+}
+.body-content .body-content-info {
+	word-break: break-all;
+}
+
+}
+
+/**********************************************
+003 - max-device: 767px
+***********************************************/
+/*/ small mobile :320px. /*/
+@media (max-width: 767px) {
+.navbar-default {
+	position: fixed;
+	top: 10px;
+}
+.navbar-default .navbar-toggle {
+	position: fixed;
+	right: 0;
+	z-index: 99999999;
+}
+#main-menu {
+  height: 85vh;
+  overflow-y: scroll;
+}
+.navbar {
+	position: initial;
+	left: 0;
+}
+.easypiechart {
+	width: 100%;
+}
+#easypiechart-blue .percent {
+	font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+table tbody tr td a.btn {
+	margin: 10px 0;
+}
+
+.body-content-half {
+	width: 100%;
+	word-break: break-all;
+}
+.body-content .body-content-info {
+	font-size: 20px;
+}
+ 
+}
+
+/**********************************************
+004 - min-device: 480px and max-device: 767px
+***********************************************/
+ 
+/*/ Large Mobile :480px. /*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/*.container {width:450px}*/
+
+
+
+/*css for footer section*/
+
+
+ 
+}

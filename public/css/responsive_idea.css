@@ -1,0 +1,103 @@
+/******************************
+
+INDEX:
+	001 - min-device: 992px and max-device: 1169px
+	002 - min-device: 768px and max-device: 991px
+	003 - max-device: 767px
+	004 - min-device: 480px and max-device: 767px
+
+******************************/
+
+
+/**********************************************
+001 - min-device: 992px and max-device: 1169px
+***********************************************/
+/*/ Normal desktop :992px. /*/
+@media (min-width: 992px) and (max-width: 1169px) {
+
+
+
+}
+
+/**********************************************
+002 - min-device: 768px and max-device: 991px
+***********************************************/
+/*/ Tablet desktop :768px. /*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+/**********************************************
+003 - max-device: 767px
+***********************************************/
+/*/ small mobile :320px. /*/
+@media (max-width: 767px) {
+/*.container {width:300px}*/
+.short-idea-user{
+	width: 100%;
+    margin-bottom: 15px;
+}
+
+.short-idea-details {
+	width: 100%;
+}
+.idea-info .info-right{
+	display: block;
+	width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+.idea-info .info-right .info-block {
+	margin-left: 0;
+}
+.idea-info .info-right .info-block:last-child {
+	margin-left: 15px;
+}
+
+.wrapper-box.wrapper-box-show {
+	padding: 10px;
+}
+.comment-idea-user {
+	    width: 100%;
+    margin: 0 0 20px 0;
+}
+.comment-idea-details {
+	width: 100%;
+	padding: 10px;
+}
+.comment-idea-details p {
+	text-align: justify;
+}
+#comment-idea {
+	margin-top: 25px;
+}
+ 
+}
+
+/**********************************************
+004 - min-device: 480px and max-device: 767px
+***********************************************/
+ 
+/*/ Large Mobile :480px. /*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+/*css for portfolio section*/
+.gallery-image .gallery-hover .gallery-icon-first {
+	position: absolute;
+    top: 45%;
+    left: 42%; }
+
+.gallery-image .gallery-hover .gallery-icon-second {
+	position: absolute;
+    top: 45%;
+    left: 52%; }
+
+/*css for footer section*/
+
+
+ 
+}

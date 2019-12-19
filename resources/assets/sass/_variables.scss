@@ -1,0 +1,28 @@
+
+// Body
+$body-bg: #f5f8fa;
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+
+// Custom Variable
+$body-color: #fff;
+$box-color: #eef0f3;
+$theme-color: #55acee;
+$hover-color: #BDC3C7;
+$hover-text: #fff;
+
+$margin-updown: 25px;
+
+%forum-idea {
+	display: block;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding: 25px;
+	margin-bottom: $margin-updown;
+	overflow: auto;
+}
